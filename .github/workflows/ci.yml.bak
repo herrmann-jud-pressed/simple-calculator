@@ -33,6 +33,7 @@ jobs:
       run: |
         pytest test_calculator.py
 
+
     - name: Run Trivy vulnerability scan on dependencies
       uses: aquasecurity/trivy-action@master
       with:
